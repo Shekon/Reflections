@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that
+ was introduced?
+Well for one, I could not help but think about how this utility is implemented.
+On the face of it looks like they have done some neat jobs with Regular Expressions.
+Being a regular Windows user it takes a bit of time to make sense of what is written
+with all the pluses and minuses. But once you know what changed, you can quickly find
+out where the bug was introduced.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+Putting in proper comments and following a well understood convention for putting in
+comments creates knowledge base of its own. It highlights reasons why bugs were introduced
+in the first place, which upon "Reflection" will create a better understanding of how
+those could have been avoided in the first place. Secondly with the widespread use of agile
+model, this versioning and putting in comments, provides a safety net to development teams
+by allowing them to capture changes and, if required, provide fallback.
+
+What do you think are the pros and cons of manually choosing when to create a commit,
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+Enforcement of check-in policy becomes difficult.
+
+Why do you think some version control systems, like Git, allow saving multiple files
+in one commit, while others, like Google Docs, treat each file separately?
+All logically related files need to be "commited" in a single commit. So Google docs
+which manages versioning of docs, which are usually stand-alone pieces of info treateach
+file seperately.
+
+How can you use the commands git log and git diff to view the history of files?
+Log gives you list of all commits and diff shows what changed between versions.
+
+How might using version control make you more confident to make changes that could
+break something?
+Just started to like Git a bit. Do I need to remember the latest commit id,
+there should definitely be a better way.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Move on to my Android development class. I would also like to see how Git address my
+concerns about maintaining different code base for different types of devices. Should
+I create branches for each device type?
